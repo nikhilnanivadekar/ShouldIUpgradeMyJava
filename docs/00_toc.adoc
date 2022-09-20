@@ -1,9 +1,30 @@
-- Introduction
-- Agenda/Overview
-- Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
-- Memory Comparison (JDK 8 vs JDK 11 vs JDK 17)
-- Garbage Collectors
-- Features between JDK 8 to JDK 17
-- Features beyond JDK 17
-- Take Aways
-- Questions
+* Introduction
+* Agenda/Overview
+* Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
+** Numerical comparison: Fibonacci Series
+** String comparison: ?
+
+* Garbage Collectors
+** TBC
+** TBC
+** TBC
+** ZGC (JDK 15)
+** Epsilon (JDK x)
+
+* Features between JDK 8 to JDK 17: Previews are not considered only GA
+** `var` (JDK 11)
+** Updated SWITCH Statements (JDK 14)
+** Helpful Null Pointer Exceptions (JDK 14)
+** Text Blocks (JDK 15)
+** Hidden Classes (JDK 15)
+** Pattern Matching for Instanceof (JDK 16)
+** Records (JDK 16)
+** Sealed Classes (JDK 17)
+
+* Removal
+** Nashorn Engine (JDK 15)
+** CMS Garbage Collector (JDK 14)
+** Strongly Encapsulate JDK Internals (JDK 17)
+
+* Take Aways
+* Questions
