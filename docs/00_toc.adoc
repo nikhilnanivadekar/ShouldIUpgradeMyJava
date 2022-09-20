@@ -1,0 +1,9 @@
+- Introduction
+- Agenda/Overview
+- Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
+- Memory Comparison (JDK 8 vs JDK 11 vs JDK 17)
+- Garbage Collectors
+- Features between JDK 8 to JDK 17
+- Features beyond JDK 17
+- Take Aways
+- Questions
