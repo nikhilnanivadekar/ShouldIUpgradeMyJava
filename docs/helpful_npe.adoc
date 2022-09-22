@@ -9,7 +9,7 @@
 [source,java,highlight=2..3]
 ----
 Person person = new Person("Nikhil", "N", null);
-String lowercaseCity = person.address.city.toLowerCase();
+String lowercaseCity = person.getAddress().getCity().toLowerCase();
 
 /** Prints:
 Exception in thread "main" java.lang.NullPointerException
@@ -19,14 +19,14 @@ at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHe
 
 --
 
-.Helpful NPEs
+.Helpful NPEs & Records
 [source,java,highlight=2..3]
 ----
 Person person = new Person("Nikhil", "N", null);
-String lowercaseCity = person.address.city.toLowerCase();
+String lowercaseCity = person.address().city().toLowerCase();
 
 /** Prints:
-java.lang.NullPointerException: Cannot read field "city" because "person.address" is null
+java.lang.NullPointerException: Cannot invoke "nikhil.nani.code.examples.ExamplesHelpfulNPEsTest$Address.city()" because the return value of "nikhil.nani.code.examples.ExamplesHelpfulNPEsTest$Person.address()" is null
 at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHelpfulNPEsTest.java:13)
 **/
 ----
@@ -37,7 +37,7 @@ Person person = new Person("Nikhil", "N", new Address("", "", null));
 String lowercaseCity = person.address.city.toLowerCase();
 
 /** Prints:
-java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "person.address.city" is null
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "nikhil.nani.code.examples.ExamplesHelpfulNPEsTest$Address.city()" is null
 at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest2(ExamplesHelpfulNPEsTest.java:23)
 **/
 ----

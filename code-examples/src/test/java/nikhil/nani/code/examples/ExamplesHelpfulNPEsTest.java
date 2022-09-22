@@ -10,7 +10,7 @@ public class ExamplesHelpfulNPEsTest {
 
         Person person = new Person("Nikhil", "N", null);
 
-        String lowercaseCity = person.address.city.toLowerCase();
+        String lowercaseCity = person.address().city().toLowerCase();
 
         Assertions.fail("Should not reach here");
     }
@@ -20,7 +20,7 @@ public class ExamplesHelpfulNPEsTest {
 
         Person person = new Person("Nikhil", "N", new Address("", "", null));
 
-        String lowercaseCity = person.address.city.toLowerCase();
+        String lowercaseCity = person.address().city().toLowerCase();
 
         Assertions.fail("Should not reach here");
     }
