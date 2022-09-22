@@ -1,0 +1,95 @@
+== Updated SWITCH Statements (JDK 14)
+
+** Can be used as an expression to return value
+** A `case` statement can contain multiple values separated by comma
+** `switch` can be on enums
+** New keyword `yield` to use for code blocks
+
+--
+.Old `switch-case` syntax
+[source,java,highlight=2..3]
+----
+    private String getQuarterOldSwitch(Integer monthNumber) {
+
+        switch (monthNumber) {
+            case 1:
+                return "Q1";
+            case 2:
+                return "Q1";
+            case 3:
+                return "Q1";
+            case 4:
+                return "Q2";
+            case 5:
+                return "Q2";
+            case 6:
+                return "Q2";
+            case 7:
+                return "Q3";
+            case 8:
+                return "Q3";
+            case 9:
+                return "Q3";
+            case 10:
+                return "Q4";
+            case 11:
+                return "Q4";
+            case 12:
+                return "Q4";
+            default:
+                return "Not a month in year";
+        }
+    }
+
+----
+
+---
+
+--
+
+.New `switch-case` syntax
+[source,java,highlight=2..3]
+----
+    private String getQuarterNewSwitch(Integer monthNumber) {
+
+        return switch (monthNumber) {
+            case 1, 2, 3 -> "Q1";
+            case 4, 5, 6 -> "Q2";
+            case 7, 8, 9 -> "Q3";
+            case 10, 11, 12 -> "Q4";
+            default -> "Not a month in year";
+        };
+    }
+
+----
+
+---
+
+--
+.New `switch-case-yield` syntax
+[source,java,highlight=2..3]
+----
+    private String getQuarterYieldSyntax(Integer monthNumber) {
+
+        return switch (monthNumber) {
+            case 1, 2, 3 -> {
+                System.out.println("90/91 Days");
+                yield "Q1";
+            }
+            case 4, 5, 6 -> {
+                System.out.println("91 Days");
+                yield "Q2";
+            }
+            case 7, 8, 9 -> {
+                System.out.println("92 Days");
+                yield "Q3";
+            }
+            case 10, 11, 12 -> {
+                System.out.println("92 Days");
+                yield "Q4";
+            }
+            default -> "Not a month in year";
+        };
+    }
+
+----
