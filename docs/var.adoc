@@ -1,0 +1,21 @@
+== var (JDK 10)
+
+** Local variable type inference
+** Type inference is the idea that compiler can figure out the static types (so you don't have to type them)
+** `var` can only be used for local variables with an explicit initialization
+
+--
+[source,java,highlight=2..3]
+----
+    @Test
+    public void var() {
+
+        Map<Integer, String> map = Map.of(1, "One", 2, "Two");
+
+        var withVar = Map.of(1, "One", 2, "Two");
+
+        Assertions.assertEquals(map, withVar);
+    }
+----
+
+** *Attention*: Polymorphic code does not play nice with `var`
