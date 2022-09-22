@@ -1,0 +1,6 @@
+== Removal
+
+** Nashorn Engine (JDK 15)
+** CMS Garbage Collector (JDK 14)
+** Strongly Encapsulate JDK Internals (JDK 17)
+** And a lot more deprecations
