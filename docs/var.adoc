@@ -18,4 +18,7 @@
     }
 ----
 
-** *Attention*: Polymorphic code does not play nice with `var`
+** *Attention*:
+*** `var` variable cannot be initialized to `null`
+*** `var` cannot be used to assign lambda expressions
+*** Avoid `var` with polymorphic code
