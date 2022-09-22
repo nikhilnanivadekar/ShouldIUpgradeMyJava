@@ -3,10 +3,22 @@
 ** Prior to Java 14, it was difficult to isolate a null pointer exception in chained method calls
 ** From Java 14 `NullPointerException` prints a detailed message comprised of the failed operation and the cause of the failure
 ** The detailed message is provided only when the JVM throws a NPE and not when an NPE is explicitly thrown
-** The detailed message is *switched off* by default in JDK 14
-*** To enable detailed messages in NPE use command line option `-XX:+ShowCodeDetailsInExceptionMessages`
 
 --
+.Old NPEs
+[source,java,highlight=2..3]
+----
+Person person = new Person("Nikhil", "N", null);
+String lowercaseCity = person.address.city.toLowerCase();
+
+/** Prints:
+Exception in thread "main" java.lang.NullPointerException
+at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHelpfulNPEsTest.java:13)
+**/
+----
+
+--
+
 .Helpful NPEs
 [source,java,highlight=2..3]
 ----
