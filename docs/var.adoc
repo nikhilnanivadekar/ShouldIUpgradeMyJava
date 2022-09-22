@@ -22,3 +22,7 @@
 *** `var` variable cannot be initialized to `null`
 *** `var` cannot be used to assign lambda expressions
 *** Avoid `var` with polymorphic code
+
+
+---
+link:./00_toc.adoc[TOC] /
