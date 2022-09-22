@@ -1,0 +1,12 @@
+== Should I Upgrade my Java
+
+** Nikhil Nanivadekar
+*** Principal Engineer, Amazon
+*** Active Project Lead, Eclipse Collections
+*** Java Champion
+*** Twitter: link:https://twitter.com/NikhilNanivade[NikhilNanivade]
+*** Medium: link:https://medium.com/@nikhilnanivadekar[medium.com/@nikhilnanivadekar]
+
+** Special Thanks to:
+*** link:https://wkorando.github.io/presentations[Billy Korando]
+*** link:https://twitter.com/CGuntur[Chandra Guntur]
