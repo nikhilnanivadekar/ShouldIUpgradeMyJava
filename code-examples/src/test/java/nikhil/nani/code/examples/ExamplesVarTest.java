@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Map;
 
-public class ExamplesTest {
+public class ExamplesVarTest {
 
     @Test
     public void var() {
@@ -16,5 +16,4 @@ public class ExamplesTest {
 
         Assertions.assertEquals(map, withVar);
     }
-
 }
