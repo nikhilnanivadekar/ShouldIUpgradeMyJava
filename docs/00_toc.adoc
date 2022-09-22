@@ -7,12 +7,6 @@
 ** String comparison: Valid 5 letter words from Anagrams
 
 * Garbage Collectors
-** Serial GC (JDK 1)
-** Parallel GC (JDK 1.4)
-** G1 GC (JDK 8)
-** ZGC (JDK 16)
-** Shenandoah GC (JDK 17 / JDK 11.0.14)
-** Epsilon (Experimental as of Sept 2022)
 
 * Features between JDK 8 to JDK 17: Previews are not considered only GA
 ** var (JDK 10)
