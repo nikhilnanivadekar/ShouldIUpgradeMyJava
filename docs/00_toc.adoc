@@ -19,7 +19,6 @@
 ** Updated SWITCH Statements (JDK 14)
 ** Helpful Null Pointer Exceptions (JDK 14)
 ** Text Blocks (JDK 15)
-** Hidden Classes (JDK 15)
 ** Pattern Matching for Instanceof (JDK 16)
 ** Records (JDK 16)
 ** Sealed Classes (JDK 17)
