@@ -24,6 +24,7 @@ public class MemoryTestsJdk8 {
 
                 printMemoryUtilizationUsingRuntime("String", size);
             }
+            System.out.println("-----------------------------------------------------------");
         }
     }
 
