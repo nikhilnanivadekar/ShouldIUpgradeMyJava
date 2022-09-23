@@ -1,0 +1,32 @@
+== Garbage Collectors
+
+** Serial GC (JDK 1)
+*** Simplest and the oldest GC mainly designed for a single thread environment
+*** Uses a single thread for garbage collection
+*** Not a good idea to use it in multi-threaded applications like server environments
+
+** Parallel GC (JDK 1.4)
+*** Uses multiple threads for garbage collection
+*** Freezes all application threads while performing garbage collection (similar to Serial GC)
+
+** CMS GC (Removed in JDK 14)
+*** Uses multiple GC threads for garbage collection
+*** Removed in JDK 14
+
+** G1 GC (JDK 8)
+*** Partitions heap in to set of equal sized heap regions and performs garbage collection within them in parallel
+*** Stands for Garbage First (G1)
+
+** ZGC (JDK 16)
+*** Performs work concurrently in it's own threads without stopping execution of application threads for more than 10 ms
+*** Suitable for low latency, very large heap (multi-terabytes)
+
+** Shenandoah GC (JDK 17 / JDK 11.0.14)
+*** Ultra low pause time GC
+*** Processing happens in multiple small phases mostly concurrent with the application
+*** Aggressively compacts the heap in parallel with application threads
+*** Provides a variety of tuning options to configure GC behavior based on application needs
+
+** Epsilon (Experimental as of Sept 2022)
+*** Passive garbage collector: Allocates the memory but does not collect unused objects
+*** Epsilon GC allows applications to run out of memory and crash

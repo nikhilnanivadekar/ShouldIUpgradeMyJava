@@ -2,6 +2,7 @@
 
 ** Serial GC (JDK 1)
 ** Parallel GC (JDK 1.4)
+** CMS GC (Removed in JDK 14)
 ** G1 GC (JDK 8)
 ** ZGC (JDK 16)
 ** Shenandoah GC (JDK 17 / JDK 11.0.14)
