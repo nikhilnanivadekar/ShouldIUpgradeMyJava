@@ -1,0 +1,127 @@
+JDK8 String Size:1 Memory:1368 Kb
+JDK8 String Size:10 Memory:1370 Kb
+JDK8 String Size:100 Memory:1383 Kb
+JDK8 String Size:1000 Memory:1504 Kb
+JDK8 String Size:10000 Memory:2699 Kb
+JDK8 String Size:100000 Memory:16181 Kb
+JDK8 String Size:1000000 Memory:146601 Kb
+-----------------------------------------------------------
+JDK8 String Size:1 Memory:2448 Kb
+JDK8 String Size:10 Memory:2449 Kb
+JDK8 String Size:100 Memory:2462 Kb
+JDK8 String Size:1000 Memory:2583 Kb
+JDK8 String Size:10000 Memory:3777 Kb
+JDK8 String Size:100000 Memory:17283 Kb
+JDK8 String Size:1000000 Memory:147080 Kb
+-----------------------------------------------------------
+JDK8 String Size:1 Memory:2927 Kb
+JDK8 String Size:10 Memory:2928 Kb
+JDK8 String Size:100 Memory:2941 Kb
+JDK8 String Size:1000 Memory:3062 Kb
+JDK8 String Size:10000 Memory:4255 Kb
+JDK8 String Size:100000 Memory:17761 Kb
+JDK8 String Size:1000000 Memory:147610 Kb
+-----------------------------------------------------------
+JDK8 String Size:1 Memory:3457 Kb
+JDK8 String Size:10 Memory:3458 Kb
+JDK8 String Size:100 Memory:3471 Kb
+JDK8 String Size:1000 Memory:3592 Kb
+JDK8 String Size:10000 Memory:4785 Kb
+JDK8 String Size:100000 Memory:18291 Kb
+JDK8 String Size:1000000 Memory:148213 Kb
+-----------------------------------------------------------
+JDK8 String Size:1 Memory:4060 Kb
+JDK8 String Size:10 Memory:4061 Kb
+JDK8 String Size:100 Memory:4074 Kb
+JDK8 String Size:1000 Memory:4195 Kb
+JDK8 String Size:10000 Memory:5389 Kb
+JDK8 String Size:100000 Memory:18895 Kb
+JDK8 String Size:1000000 Memory:148199 Kb
+-----------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+
+JDK11 String Size:1 Memory:1216 Kb
+JDK11 String Size:10 Memory:1336 Kb
+JDK11 String Size:100 Memory:1349 Kb
+JDK11 String Size:1000 Memory:1470 Kb
+JDK11 String Size:10000 Memory:2664 Kb
+JDK11 String Size:100000 Memory:17914 Kb
+JDK11 String Size:1000000 Memory:139471 Kb
+-----------------------------------------------------------
+JDK11 String Size:1 Memory:1336 Kb
+JDK11 String Size:10 Memory:1337 Kb
+JDK11 String Size:100 Memory:1350 Kb
+JDK11 String Size:1000 Memory:1471 Kb
+JDK11 String Size:10000 Memory:2665 Kb
+JDK11 String Size:100000 Memory:17914 Kb
+JDK11 String Size:1000000 Memory:139471 Kb
+-----------------------------------------------------------
+JDK11 String Size:1 Memory:1336 Kb
+JDK11 String Size:10 Memory:1337 Kb
+JDK11 String Size:100 Memory:1350 Kb
+JDK11 String Size:1000 Memory:1471 Kb
+JDK11 String Size:10000 Memory:2665 Kb
+JDK11 String Size:100000 Memory:17914 Kb
+JDK11 String Size:1000000 Memory:139471 Kb
+-----------------------------------------------------------
+JDK11 String Size:1 Memory:1336 Kb
+JDK11 String Size:10 Memory:1337 Kb
+JDK11 String Size:100 Memory:1350 Kb
+JDK11 String Size:1000 Memory:1471 Kb
+JDK11 String Size:10000 Memory:2665 Kb
+JDK11 String Size:100000 Memory:17914 Kb
+JDK11 String Size:1000000 Memory:139471 Kb
+-----------------------------------------------------------
+JDK11 String Size:1 Memory:1336 Kb
+JDK11 String Size:10 Memory:1337 Kb
+JDK11 String Size:100 Memory:1350 Kb
+JDK11 String Size:1000 Memory:1471 Kb
+JDK11 String Size:10000 Memory:2665 Kb
+JDK11 String Size:100000 Memory:17914 Kb
+JDK11 String Size:1000000 Memory:139471 Kb
+-----------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+
+JDK17 String Size:1 Memory:1210 Kb
+JDK17 String Size:10 Memory:1263 Kb
+JDK17 String Size:100 Memory:1276 Kb
+JDK17 String Size:1000 Memory:1397 Kb
+JDK17 String Size:10000 Memory:2592 Kb
+JDK17 String Size:100000 Memory:17856 Kb
+JDK17 String Size:1000000 Memory:139472 Kb
+-----------------------------------------------------------
+JDK17 String Size:1 Memory:1264 Kb
+JDK17 String Size:10 Memory:1265 Kb
+JDK17 String Size:100 Memory:1278 Kb
+JDK17 String Size:1000 Memory:1399 Kb
+JDK17 String Size:10000 Memory:2592 Kb
+JDK17 String Size:100000 Memory:17856 Kb
+JDK17 String Size:1000000 Memory:139583 Kb
+-----------------------------------------------------------
+JDK17 String Size:1 Memory:1264 Kb
+JDK17 String Size:10 Memory:1265 Kb
+JDK17 String Size:100 Memory:1278 Kb
+JDK17 String Size:1000 Memory:1399 Kb
+JDK17 String Size:10000 Memory:2592 Kb
+JDK17 String Size:100000 Memory:17856 Kb
+JDK17 String Size:1000000 Memory:139546 Kb
+-----------------------------------------------------------
+JDK17 String Size:1 Memory:1264 Kb
+JDK17 String Size:10 Memory:1265 Kb
+JDK17 String Size:100 Memory:1278 Kb
+JDK17 String Size:1000 Memory:1399 Kb
+JDK17 String Size:10000 Memory:2592 Kb
+JDK17 String Size:100000 Memory:17856 Kb
+JDK17 String Size:1000000 Memory:139564 Kb
+-----------------------------------------------------------
+JDK17 String Size:1 Memory:1264 Kb
+JDK17 String Size:10 Memory:1265 Kb
+JDK17 String Size:100 Memory:1278 Kb
+JDK17 String Size:1000 Memory:1399 Kb
+JDK17 String Size:10000 Memory:2592 Kb
+JDK17 String Size:100000 Memory:17859 Kb
+JDK17 String Size:1000000 Memory:139550 Kb
+-----------------------------------------------------------
+
