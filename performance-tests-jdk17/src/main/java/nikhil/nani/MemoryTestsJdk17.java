@@ -1,7 +1,5 @@
 package nikhil.nani;
 
-import org.openjdk.jol.info.GraphLayout;
-
 import java.util.*;
 
 public class MemoryTestsJdk17 {
@@ -28,17 +26,6 @@ public class MemoryTestsJdk17 {
             }
             System.out.println("-----------------------------------------------------------");
         }
-    }
-
-    public static void printMemoryUtilizationUsingJoi(String type, Object object, int size) throws InterruptedException {
-        System.gc();
-        Thread.sleep(1000);
-        System.gc();
-        Thread.sleep(1000);
-        System.gc();
-        Thread.sleep(1000);
-
-        System.out.println("JDK8 " + type + " Class " + object.getClass() + " Size:" + size + " Memory:" + (GraphLayout.parseInstance(object).totalSize()) / 1024 + " Kb");
     }
 
     public static void printMemoryUtilizationUsingRuntime(String type, int size) throws InterruptedException {
