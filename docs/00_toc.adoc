@@ -1,7 +1,5 @@
 * Introduction
 
-* Agenda/Overview
-
 * Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
 ** JMH Tests
 ** Memory Tests
