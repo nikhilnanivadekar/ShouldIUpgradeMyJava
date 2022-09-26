@@ -3,8 +3,8 @@
 * Agenda/Overview
 
 * Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
-** Numerical comparison: Recursive Fibonacci Series stored in a Map
-** String comparison: Valid 5 letter words from Anagrams
+** JMH Tests
+** Memory Tests
 
 * Garbage Collectors
 

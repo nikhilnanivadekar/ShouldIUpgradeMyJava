@@ -1,0 +1,12 @@
+== JMH Tests - Intro
+
+* link:https://openjdk.org/projects/code-tools/jmh/[JMH - Java Microbenchmark Harness]
+* Measure Reported - Operations per second
+* _Bigger_ numbers are better
+* 4 Core Intel i5 Processor
+* Measurement Configuration
+** 5 Warm-up iterations
+** 5 Measurement iterations
+** 3 forks
+* Your Mileage May Vary (YMMV)
+** _Please test, benchmark and profile your application._

@@ -1,0 +1,27 @@
+== JMH Tests: `Map.get()` Code
+
+--
+[source,java,highlight=2..3]
+----
+    @Benchmark
+    public int jdkIntegerGet() {
+        this.elements.forEach(each ->
+        {
+            if (this.jdkInteger.get(each) != -each) {
+                throw new IllegalStateException();
+            }
+        });
+        return this.jdkInteger.size();
+    }
+
+    @Benchmark
+    public int jdkStringGet() {
+        this.elements.forEach(each ->
+        {
+            if (!this.jdkString.get(String.valueOf(each)).equals(String.valueOf(-each))) {
+                throw new IllegalStateException();
+            }
+        });
+        return this.jdkString.size();
+    }
+----
