@@ -96,20 +96,11 @@ public class ExamplesSwitchTest {
     private String getQuarterYieldSyntax(Integer monthNumber) {
 
         return switch (monthNumber) {
-            case 1, 2, 3 -> {
-                System.out.println("90/91 Days");
-                yield "Q1";
-            }
-            case 4, 5, 6 -> {
-                System.out.println("91 Days");
-                yield "Q2";
-            }
-            case 7, 8, 9 -> {
-                System.out.println("92 Days");
-                yield "Q3";
-            }
+            case 1, 2, 3 -> "Q1";
+            case 4, 5, 6 -> "Q2";
+            case 7, 8, 9 -> "Q3";
             case 10, 11, 12 -> {
-                System.out.println("92 Days");
+                System.out.println("Yay Last Quarter");
                 yield "Q4";
             }
             default -> "Not a month in year";
