@@ -1,0 +1,25 @@
+Benchmark                         (size)   Mode  Cnt       Score      Error  Units
+MapGetJmhJdk8Tests.jdkIntegerGet    1000  thrpt   15  187321.281 ± 5032.989  ops/s
+MapGetJmhJdk8Tests.jdkIntegerGet   10000  thrpt   15   17498.247 ±  531.044  ops/s
+MapGetJmhJdk8Tests.jdkIntegerGet   25000  thrpt   15    6282.480 ±  167.902  ops/s
+MapGetJmhJdk8Tests.jdkIntegerGet   50000  thrpt   15    1802.159 ±   25.323  ops/s
+MapGetJmhJdk8Tests.jdkIntegerGet   75000  thrpt   15    1079.526 ±   17.963  ops/s
+MapGetJmhJdk8Tests.jdkIntegerGet  100000  thrpt   15    1225.746 ±  138.559  ops/s
+MapGetJmhJdk8Tests.jdkStringGet     1000  thrpt   15   18024.746 ±  276.229  ops/s
+MapGetJmhJdk8Tests.jdkStringGet    10000  thrpt   15    1198.705 ±  184.656  ops/s
+MapGetJmhJdk8Tests.jdkStringGet    25000  thrpt   15     412.101 ±   31.929  ops/s
+MapGetJmhJdk8Tests.jdkStringGet    50000  thrpt   15     206.088 ±   21.199  ops/s
+MapGetJmhJdk8Tests.jdkStringGet    75000  thrpt   15     119.085 ±    5.081  ops/s
+MapGetJmhJdk8Tests.jdkStringGet   100000  thrpt   15      87.903 ±    0.869  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut    1000  thrpt   15  125791.085 ± 4908.417  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut   10000  thrpt   15   11435.205 ±  915.207  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut   25000  thrpt   15    4718.319 ±  248.869  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut   50000  thrpt   15    2343.386 ±  116.769  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut   75000  thrpt   15    1533.037 ±   80.343  ops/s
+MapPutJmhJdk8Tests.jdkIntegerPut  100000  thrpt   15    1097.441 ±   41.114  ops/s
+MapPutJmhJdk8Tests.jdkStringPut     1000  thrpt   15   29140.246 ±  452.815  ops/s
+MapPutJmhJdk8Tests.jdkStringPut    10000  thrpt   15    2528.088 ±   58.108  ops/s
+MapPutJmhJdk8Tests.jdkStringPut    25000  thrpt   15     926.220 ±   16.286  ops/s
+MapPutJmhJdk8Tests.jdkStringPut    50000  thrpt   15     279.804 ±    3.623  ops/s
+MapPutJmhJdk8Tests.jdkStringPut    75000  thrpt   15     154.850 ±    1.597  ops/s
+MapPutJmhJdk8Tests.jdkStringPut   100000  thrpt   15     119.884 ±    2.140  ops/s

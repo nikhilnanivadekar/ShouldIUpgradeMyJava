@@ -1,0 +1,25 @@
+Benchmark                          (size)   Mode  Cnt       Score       Error  Units
+MapGetJmhJdk17Tests.jdkIntegerGet    1000  thrpt   15  234226.571 ± 22742.657  ops/s
+MapGetJmhJdk17Tests.jdkIntegerGet   10000  thrpt   15   21941.635 ±   343.162  ops/s
+MapGetJmhJdk17Tests.jdkIntegerGet   25000  thrpt   15    6759.260 ±   341.801  ops/s
+MapGetJmhJdk17Tests.jdkIntegerGet   50000  thrpt   15    1975.205 ±    45.142  ops/s
+MapGetJmhJdk17Tests.jdkIntegerGet   75000  thrpt   15    2969.342 ±    63.543  ops/s
+MapGetJmhJdk17Tests.jdkIntegerGet  100000  thrpt   15    1327.067 ±    64.412  ops/s
+MapGetJmhJdk17Tests.jdkStringGet     1000  thrpt   15   30521.881 ±  1461.748  ops/s
+MapGetJmhJdk17Tests.jdkStringGet    10000  thrpt   15    2409.984 ±   390.498  ops/s
+MapGetJmhJdk17Tests.jdkStringGet    25000  thrpt   15     760.014 ±    42.175  ops/s
+MapGetJmhJdk17Tests.jdkStringGet    50000  thrpt   15     322.417 ±    19.289  ops/s
+MapGetJmhJdk17Tests.jdkStringGet    75000  thrpt   15     174.604 ±     3.126  ops/s
+MapGetJmhJdk17Tests.jdkStringGet   100000  thrpt   15     129.445 ±     2.003  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut    1000  thrpt   15  218755.791 ± 84356.982  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut   10000  thrpt   15   14726.911 ±  7448.632  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut   25000  thrpt   15    6085.780 ±  2915.963  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut   50000  thrpt   15    2897.746 ±  1218.217  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut   75000  thrpt   15    1850.432 ±   885.742  ops/s
+MapPutJmhJdk17Tests.jdkIntegerPut  100000  thrpt   15    1378.678 ±   243.934  ops/s
+MapPutJmhJdk17Tests.jdkStringPut     1000  thrpt   15   32850.455 ±  2287.655  ops/s
+MapPutJmhJdk17Tests.jdkStringPut    10000  thrpt   15    3048.396 ±   248.991  ops/s
+MapPutJmhJdk17Tests.jdkStringPut    25000  thrpt   15     998.983 ±    18.346  ops/s
+MapPutJmhJdk17Tests.jdkStringPut    50000  thrpt   15     369.496 ±    17.690  ops/s
+MapPutJmhJdk17Tests.jdkStringPut    75000  thrpt   15     189.167 ±     1.940  ops/s
+MapPutJmhJdk17Tests.jdkStringPut   100000  thrpt   15     148.218 ±     4.660  ops/s
