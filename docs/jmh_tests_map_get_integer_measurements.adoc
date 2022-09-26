@@ -1,6 +1,6 @@
 == JMH Tests - `Map.get()` for `Integer`
 
-[cols="1,1,1,1"]
+[%header,cols="1,1,1,1"]
 |===
 |Size|JDK 8|JDK 11|JDK 17
 |1,000 |187,321.281|188,308.107|*234,226.571*
