@@ -1,0 +1,12 @@
+== Memory Tests - Intro
+
+* Emulate programs running for long
+* Create a trivial program which loops 5 times and measure memory used after each iteration
+* Observed that the memory used increases gradually
+* For sake of representation only the memory after 5 iterations is reported
+* Measure Reported in Kb: `Used Memory = Total Memory - Free Memory`
+* _Smaller_ numbers are better
+* 4 Core Intel i5 Processor
+* -Xmx2048m
+* Your Mileage May Vary (YMMV)
+** _Please test, benchmark and profile your application._

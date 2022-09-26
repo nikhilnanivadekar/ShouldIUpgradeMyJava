@@ -1,0 +1,26 @@
+== Memory Tests - Code
+
+--
+[source,java,highlight=2..3]
+----
+    for (int k = 0; k < 5; k++) {
+
+        Map<String, String> stringMap = new HashMap<>();
+        List<String> stringList = new ArrayList<>();
+        Set<String> stringSet = new HashSet<>();
+
+        for (int i = 0; i < 7; i++) {
+            int size = Double.valueOf(Math.pow(10, i)).intValue();
+
+            for (int j = 0; j < size; j++) {
+                String aString = String.valueOf(j);
+                stringMap.put(aString, aString);
+                stringList.add(aString);
+                stringSet.add(aString);
+            }
+
+            printMemoryUtilizationUsingRuntime("String", size);
+        }
+    }
+
+____
