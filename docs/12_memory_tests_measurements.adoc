@@ -1,9 +1,8 @@
-== JMH Tests - `Map.get()` for `Integer`
+== Memory Measurements
 
 [%header,cols="1,1,1,1"]
 |===
 |Size|JDK 8|JDK 11|JDK 17
-|1 |4,060|1,336|1,264
 |10|4061|1,337|1,265
 |100|4,074|1,350|1,278
 |1,000|4,195|1,471|1,399

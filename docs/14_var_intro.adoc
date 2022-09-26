@@ -1,0 +1,5 @@
+== var (JDK 10)
+
+** Local variable type inference
+** Type inference is the idea that compiler can figure out the static types (so you don't have to type them)
+** `var` can only be used for local variables with an explicit initialization

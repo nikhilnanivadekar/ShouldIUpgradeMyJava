@@ -1,0 +1,12 @@
+== Text Blocks - The LONG String
+
+--
+[source,highlight=2..3]
+----
+String json = "{\n" +
+        "  \"firstName\": \"Nikhil\",\n" +
+        "  \"lastName\": \"N\",\n" +
+        "  \"city\": \"Seattle\",\n" +
+        "  \"phone\": 123\n" +
+        "}";
+----

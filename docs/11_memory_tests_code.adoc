@@ -22,5 +22,3 @@
             printMemoryUtilizationUsingRuntime("String", size);
         }
     }
-
-____

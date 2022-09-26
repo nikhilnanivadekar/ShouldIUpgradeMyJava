@@ -1,0 +1,16 @@
+== Class Hierarchy
+
+** Non-Sealed Classes
+
+[source,java,highlight=2..3]
+----
+// Since Resident is non-sealed, it is open for any number of sub-classes, hence it opens up the hierarchy
+public final class DayGuest extends Resident {
+}
+
+public final class OvernightGuest extends Resident {
+}
+// These tests passed
+Assertions.assertEquals("Logged in", dayGuest.login());
+Assertions.assertEquals("Logged in", overnightGuest.login());
+----

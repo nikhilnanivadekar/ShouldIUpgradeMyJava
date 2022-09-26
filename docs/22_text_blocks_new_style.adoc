@@ -1,0 +1,13 @@
+== Text Blocks
+
+--
+[source,highlight=2..3]
+----
+String textBlockJson = """
+        {
+          "firstName": "Nikhil",
+          "lastName": "N",
+          "city": "Seattle",
+          "phone": 123
+        }""";
+----

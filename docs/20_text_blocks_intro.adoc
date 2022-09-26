@@ -1,0 +1,7 @@
+== Text Blocks (JDK 15)
+
+** Text blocks provide clarity by minimizing Java syntax required for a `string` that spans multiple lines
+** Prior to JDK 15, developers had to deal with non-maintainable string concatenations and delimiters when they worked with strings that spanned across multiple lines
+** Text block is an alternative representation of `string`, hence has all characteristics of `java.lang.String`
+** Text block can be used to improve readability and clarity of code
+** For more info visit: link:https://docs.oracle.com/en/java/javase/15/text-blocks/index.html[Programmer's guide to text blocks]

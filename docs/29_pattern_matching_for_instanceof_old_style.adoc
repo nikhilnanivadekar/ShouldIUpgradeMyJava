@@ -1,0 +1,22 @@
+== Pattern Matching for Instanceof - Casting
+
+[source,java,highlight=2..3]
+----
+    private String withoutPatternMatching(Object input) {
+
+        if (input instanceof String) {
+            String string = (String) input;
+            return "This is a String:" + string;
+        }
+        if (input instanceof Integer) {
+            Integer integer = (Integer) input;
+            return "This is an Integer:" + integer;
+        }
+        if (input instanceof Double) {
+            Double dbl = (Double) input;
+            return "This is an Double:" + dbl;
+        }
+        return "";
+    }
+
+----

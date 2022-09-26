@@ -1,0 +1,44 @@
+== Class Hierarchy
+
+** Sealed Classes
+
+--
+.Sealed Class
+[source,java,highlight=2..3]
+----
+public sealed class Admin implements User permits SuperAdmin {
+}
+
+----
+
+--
+
+.Inherited from sealed Class
+[source,java,highlight=2..3]
+----
+public final class SuperAdmin extends Admin {
+}
+// This test passes
+Assertions.assertEquals("Logged in", superAdmin.login());
+
+// Below class TempAdmin does not compile as TempAdmin is not permitted in the sealed hierarchy
+public final class TempAdmin extends Admin {
+}
+----
+
+--
+
+.Inherited from non-sealed Class
+[source,java,highlight=2..3]
+----
+// Since Resident is non-sealed, it is open for any number of sub-classes, hence it opens up the hierarchy
+public final class DayGuest extends Resident {
+}
+
+public final class OvernightGuest extends Resident {
+}
+
+// These tests passed
+Assertions.assertEquals("Logged in", dayGuest.login());
+Assertions.assertEquals("Logged in", overnightGuest.login());
+----

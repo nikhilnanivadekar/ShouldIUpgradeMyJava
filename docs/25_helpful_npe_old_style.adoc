@@ -1,0 +1,12 @@
+== Helpful Null Pointer Exceptions - Old Style
+
+[source,java,highlight=2..3]
+----
+Person person = new Person("Nikhil", "N", null);
+String lowercaseCity = person.getAddress().getCity().toLowerCase();
+
+/** Prints:
+Exception in thread "main" java.lang.NullPointerException
+at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHelpfulNPEsTest.java:13)
+**/
+----

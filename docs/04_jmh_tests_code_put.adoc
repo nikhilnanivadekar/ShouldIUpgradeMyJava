@@ -1,11 +1,6 @@
 == JMH Tests: `Map.put()` Code
 
-* Measure performance for some common usage pattern
-* `Map.get()` and `Map.put()` along with some `if` condition and `equals()`
-* Measure for `String` and `Integer`
-
 --
-.Map.put()
 [source,java,highlight=2..3]
 ----
     @Benchmark

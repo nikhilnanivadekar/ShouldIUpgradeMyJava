@@ -1,0 +1,18 @@
+== Text Blocks - Using `formatted` syntax
+
+[source,highlight=2..3]
+----
+String textBlockJson = """
+        {
+          "firstName": "%s",
+          "lastName": "%s",
+          "city": "%s",
+          "phone": %d
+        }""";
+
+String formattedTextBlockJson = textBlockJson.formatted(
+        "Nikhil",
+        "N",
+        "Seattle",
+        123);
+----
