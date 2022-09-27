@@ -1,7 +1,5 @@
 == Class Hierarchy
 
-** Non-Sealed Classes
-
 [source,java,highlight=2..3]
 ----
 // Since Resident is non-sealed, it is open for any number of sub-classes, hence it opens up the hierarchy

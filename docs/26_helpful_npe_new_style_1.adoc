@@ -15,4 +15,4 @@ at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHe
 
 link:./00_toc.adoc[TOC] /
 link:./25_helpful_npe_old_style.adoc[NPEs Old Style] /
-link:./26_helpful_npe_new_style_1.adoc[Helpful NPE New Style - Contd]
+link:./27_helpful_npe_new_style_2.adoc[Helpful NPE New Style - Contd]

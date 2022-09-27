@@ -1,11 +1,10 @@
-== Should I Upgrade my Java
+== Introduction
 
 ** Nikhil Nanivadekar
 *** Principal Engineer, Amazon
 *** Active Project Lead, Eclipse Collections
 *** Java Champion
 *** Twitter: link:https://twitter.com/NikhilNanivade[NikhilNanivade]
-*** Medium: link:https://medium.com/@nikhilnanivadekar[medium.com/@nikhilnanivadekar]
 *** Project Repo: link:https://github.com/nikhilnanivadekar/ShouldIUpgradeMyJava[Should I Upgrade My Java]
 
 ** Special Thanks to:

@@ -3,7 +3,7 @@
 * Introduction
 * Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
 * Garbage Collectors
-* Features between JDK 8 to JDK 17: Previews are not considered only GA
+* Features between JDK 8 to JDK 17. _Previews are not considered_
 * Removal
 * Take Aways
 * Questions

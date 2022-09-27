@@ -1,11 +1,12 @@
 == Take-Aways
 
-** Performance improvements, new features, and line up for the future
+** Performance improvements, new features
 ** Upgrade to JDK 17
 ** If still on JDK 8 skip JDK 11 and go directly to JDK 17
 ** JDK 17 is more than a year old (released September 2022)
 ** JDK 19 is already released
 ** JDK 21 will be out in September 2023
+** Prepare for the future
 
 == Thank You!
 

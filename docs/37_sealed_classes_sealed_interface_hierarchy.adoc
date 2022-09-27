@@ -1,7 +1,5 @@
 == Sealed Classes
 
-** Hierarchy
-
 --
 .Final Class
 [source,java,highlight=2..3]
