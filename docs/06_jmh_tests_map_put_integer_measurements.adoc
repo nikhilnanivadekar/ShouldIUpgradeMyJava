@@ -12,7 +12,10 @@
 |===
 
 * All data in ops/second.
-Higher numbers are better ---
+Higher numbers are better
+
+---
+
 link:./00_toc.adoc[TOC] /
 link:./05_jmh_tests_code_get.adoc[JMH Tests - get()] /
 link:./07_jmh_tests_map_put_string_measurements.adoc[JMH Tests - put() String Measurements]
