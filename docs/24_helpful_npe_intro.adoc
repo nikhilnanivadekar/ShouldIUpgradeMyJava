@@ -1,8 +1,8 @@
 == Helpful Null Pointer Exceptions (JDK 14)
 
-** Prior to Java 14, it was difficult to isolate a null pointer exception in chained method calls
-** From Java 14 `NullPointerException` prints a detailed message comprised of the failed operation and the cause of the failure
-** The detailed message is provided only when the JVM throws a NPE and not when an NPE is explicitly thrown
+** Prior to Java 14: Difficult to isolate NPEs in chained method calls
+** From Java 14: `NullPointerException` prints a detailed helpful message
+** Only when the JVM throws a NPE and not when an NPE is explicitly thrown
 
 ---
 

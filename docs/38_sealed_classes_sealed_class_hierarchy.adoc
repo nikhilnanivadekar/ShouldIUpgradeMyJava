@@ -1,7 +1,6 @@
 == Class Hierarchy
 
 --
-.Sealed Class
 [source,java,highlight=2..3]
 ----
 public sealed class Admin implements User permits SuperAdmin {
@@ -10,8 +9,6 @@ public sealed class Admin implements User permits SuperAdmin {
 ----
 
 --
-
-.Inherited from Sealed Class
 [source,java,highlight=2..3]
 ----
 public final class SuperAdmin extends Admin {

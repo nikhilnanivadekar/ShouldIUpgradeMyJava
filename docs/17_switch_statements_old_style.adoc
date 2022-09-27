@@ -2,37 +2,36 @@
 
 [source,java,highlight=2..3]
 ----
-    private String getQuarterOldSwitch(Integer monthNumber) {
-
-        switch (monthNumber) {
-            case 1:
-                return "Q1";
-            case 2:
-                return "Q1";
-            case 3:
-                return "Q1";
-            case 4:
-                return "Q2";
-            case 5:
-                return "Q2";
-            case 6:
-                return "Q2";
-            case 7:
-                return "Q3";
-            case 8:
-                return "Q3";
-            case 9:
-                return "Q3";
-            case 10:
-                return "Q4";
-            case 11:
-                return "Q4";
-            case 12:
-                return "Q4";
-            default:
-                return "Not a month in year";
-        }
+private String getQuarterOldSwitch(Integer monthNumber) {
+    switch (monthNumber) {
+        case 1:
+            return "Q1";
+        case 2:
+            return "Q1";
+        case 3:
+            return "Q1";
+        case 4:
+            return "Q2";
+        case 5:
+            return "Q2";
+        case 6:
+            return "Q2";
+        case 7:
+            return "Q3";
+        case 8:
+            return "Q3";
+        case 9:
+            return "Q3";
+        case 10:
+            return "Q4";
+        case 11:
+            return "Q4";
+        case 12:
+            return "Q4";
+        default:
+            return "Not a month in year";
     }
+}
 ----
 
 ---

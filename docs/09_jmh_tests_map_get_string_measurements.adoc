@@ -1,14 +1,14 @@
 == JMH Tests - `Map.get()` for `String`
 
-[%header,cols="1,1,1,1"]
+[%header,cols=">1,>1,>1,>1"]
 |===
 |Size|JDK 8|JDK 11|JDK 17
-|1,000 |18,024.746|*31,894.172*|30,521.881
-|10,000|1,198.705|*2,742.313*|2,409.984
-|25,000|412.101|*847.558*|760.014
-|50,000|206.088|282.916|*322.417*
-|75,000|119.085|150.880|*174.604*
-|100,000|87.903|115.813|*129.445*
+|1,000 |18,024.75|*31,894.17*|30,521.88
+|10,000|1,198.71|*2,742.31*|2,409.98
+|25,000|412.10|*847.56*|760.01
+|50,000|206.09|282.92|*322.42*
+|75,000|119.09|150.88|*174.60*
+|100,000|87.90|115.81|*129.45*
 |===
 
 * All data in ops/second.
@@ -17,5 +17,5 @@ Higher numbers are better
 ---
 
 link:./00_toc.adoc[TOC] /
-link:./09_jmh_tests_map_get_string_measurements.adoc[JMH Tests - get() String Measurements] /
+link:./08_jmh_tests_map_get_integer_measurements.adoc[JMH Tests - get() Integer Measurements] /
 link:./10_memory_tests_intro.adoc[Memory Tests Intro]

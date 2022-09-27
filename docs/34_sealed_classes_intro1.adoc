@@ -1,8 +1,7 @@
 == Sealed Classes (JDK 17) - Intro
 
-** Sealed classes provide a fine-grained inheritance control in Java
-** Prior to sealed classes, every non-final class could be extended by any number of sub-classes
-** With sealed classes we get new modifiers and clauses
+** Provide a fine-grained inheritance control in Java
+** Prior to sealed classes: every non-final class could be extended by any number of sub-classes
 
 ---
 

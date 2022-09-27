@@ -1,12 +1,12 @@
 == Records (JDK 16)
 
-** Records provide the ability to model data using classes
-** Prior to Records, developers had to create classes with boilerplate code
-** Records give the ability to create data classes
-** Fields in records are `private final` (shallow immutable)
+** Ability to model data using classes
+** Prior to Records: classes with boilerplate code
+** Fields are `private final` (shallow immutable)
 ** Cannot declare instance fields
 ** Default implementation for accessors, hashcode, toString, equals, automatically generated
-** Can override default implementations and write custom method definitions
+** Can override default implementations
+** Can write custom method definitions
 ** For more info visit: link:https://www.infoq.com/articles/data-oriented-programming-java/[Data Oriented Programming in Java]
 
 ---

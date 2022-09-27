@@ -6,7 +6,7 @@
 ** JDK 17 is more than a year old (released September 2022)
 ** JDK 19 is already released
 ** JDK 21 will be out in September 2023
-** Prepare for the future
+** Embrace the future
 
 == Thank You!
 

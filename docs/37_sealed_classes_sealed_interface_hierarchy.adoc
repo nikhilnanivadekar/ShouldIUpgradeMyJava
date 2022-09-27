@@ -1,17 +1,13 @@
 == Sealed Classes
 
 --
-.Final Class
 [source,java,highlight=2..3]
 ----
 public final class Owner implements User {
 }
 
 ----
-
 --
-
-.Sealed Class
 [source,java,highlight=2..3]
 ----
 public sealed class Admin implements User permits SuperAdmin {
@@ -20,7 +16,6 @@ public sealed class Admin implements User permits SuperAdmin {
 ----
 
 --
-.Non-Sealed Class
 [source,java,highlight=2..3]
 ----
 public non-sealed class Resident implements User  {

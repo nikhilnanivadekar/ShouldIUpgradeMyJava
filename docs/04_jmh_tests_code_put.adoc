@@ -3,20 +3,20 @@
 --
 [source,java,highlight=2..3]
 ----
-    @Benchmark
-    public int jdkIntegerPut() {
-        this.elements.forEach(each -> this.jdkInteger.put(each, each));
-        return this.jdkInteger.size();
-    }
+@Benchmark
+public int jdkIntegerPut() {
+    this.elements.forEach(each -> this.jdkInteger.put(each, each));
+    return this.jdkInteger.size();
+}
 
-    @Benchmark
-    public int jdkStringPut() {
-        this.elements.forEach(each -> {
-            String string = String.valueOf(each);
-            this.jdkString.put(string, string);
-        });
-        return this.jdkString.size();
-    }
+@Benchmark
+public int jdkStringPut() {
+    this.elements.forEach(each -> {
+        String string = String.valueOf(each);
+        this.jdkString.put(string, string);
+    });
+    return this.jdkString.size();
+}
 ----
 
 ---

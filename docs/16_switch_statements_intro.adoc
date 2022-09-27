@@ -1,4 +1,4 @@
-== Updated SWITCH Statements (JDK 14)
+== Updated Switch Statements (JDK 14)
 
 ** Can be used as an expression to return value
 ** A `case` statement can contain multiple values separated by comma

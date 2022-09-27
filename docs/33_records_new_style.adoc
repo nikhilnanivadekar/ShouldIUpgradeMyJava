@@ -2,20 +2,19 @@
 
 [source,java,highlight=2..3]
 ----
-    record PersonRecord(String firstName, String lastName) {
-
-        public String getFullName() {
-            return firstName + ' ' + lastName;
-        }
-
-        @Override
-        public String toString() {
-            return "Person{" +
-                    "firstName='" + firstName + '\'' +
-                    ", lastName='" + lastName + '\'' +
-                    '}';
-        }
+record PersonRecord(String firstName, String lastName) {
+    public String getFullName() {
+        return firstName + ' ' + lastName;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
+}
 ----
 
 ---
