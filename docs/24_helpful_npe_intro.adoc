@@ -2,7 +2,10 @@
 
 ** Prior to Java 14, it was difficult to isolate a null pointer exception in chained method calls
 ** From Java 14 `NullPointerException` prints a detailed message comprised of the failed operation and the cause of the failure
-** The detailed message is provided only when the JVM throws a NPE and not when an NPE is explicitly thrown ---
+** The detailed message is provided only when the JVM throws a NPE and not when an NPE is explicitly thrown
+
+---
+
 link:./00_toc.adoc[TOC] /
 link:./23_text_blocks_injecting_variables.adoc[Text Block formatted] /
 link:./25_helpful_npe_old_style.adoc[NPEs Old Style]

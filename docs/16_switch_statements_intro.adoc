@@ -4,6 +4,9 @@
 ** A `case` statement can contain multiple values separated by comma
 ** `switch` can be on enums
 ** New keyword `yield` to use for code blocks ---
+
+---
+
 link:./00_toc.adoc[TOC] /
 link:./15_var_code.adoc[var code] /
 link:./17_switch_statements_old_style.adoc[Switch Statements Old Style]
