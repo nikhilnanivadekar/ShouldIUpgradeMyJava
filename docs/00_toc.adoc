@@ -1,12 +1,12 @@
 == Agenda
 
-* Introduction
-* Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)
-* Garbage Collectors
-* Features between JDK 8 to JDK 17. _Previews are not considered_
-* Removal
-* Take Aways
-* Questions
+* link:./01_intro.adoc[Introduction]
+* link:./02_jmh_tests_intro.adoc[Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)]
+* link:./13_garbage_collectors.adoc[Garbage Collectors]
+* link:./14_var_intro.adoc[Features between JDK 8 to JDK 17. _Previews are not considered_]
+* link:./40_removals.adoc[Removal]
+* link:./41_take_aways.adoc[Take Aways]
+* link:./42_q_and_a.adoc[Questions]
 
 ---
 

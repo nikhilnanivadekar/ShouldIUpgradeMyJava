@@ -1,7 +1,7 @@
 == Sealed Classes (JDK 17) - Intro
 
 ** With sealed classes we get the following modifiers and clauses
-*** `sealed`: can be extended of implemented only by those classes and interfaces permitted to do so
+*** `sealed`: can be extended or implemented only by those classes and interfaces permitted to do so
 *** `non-sealed`: allows to open up a part of the hierarchy without exposing the entire hierarchy
 *** `permits`: specifies the subclasses that can extend the sealed class
 ** If subclasses are in different files in the same module or package, then use `permits` to define the subclasses that may extend the sealed class

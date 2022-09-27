@@ -10,7 +10,7 @@ private String withPatternMatching(Object input) {
         return "This is an Integer:" + integer;
     }
     if (input instanceof Double dbl) {
-        return "This is an Double:" + dbl;
+        return "This is a Double:" + dbl;
     }
     return "";
 }

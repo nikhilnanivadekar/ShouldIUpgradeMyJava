@@ -25,7 +25,7 @@ public class ExamplesPatternMatchingTest {
         }
         if (input instanceof Double) {
             Double dbl = (Double) input;
-            return "This is an Double:" + dbl;
+            return "This is a Double:" + dbl;
         }
         return "";
     }
@@ -39,7 +39,7 @@ public class ExamplesPatternMatchingTest {
             return "This is an Integer:" + integer;
         }
         if (input instanceof Double dbl) {
-            return "This is an Double:" + dbl;
+            return "This is a Double:" + dbl;
         }
 
         return "";
