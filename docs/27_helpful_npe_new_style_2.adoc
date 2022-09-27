@@ -3,7 +3,7 @@
 [source,java,highlight=2..3]
 ----
 Person person = new Person("Nikhil", "N", new Address("", "", null));
-String lowercaseCity = person.address.city.toLowerCase();
+String lowercaseCity = person.address().city().toLowerCase();
 
 /** Prints:
 java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "nikhil.nani.code.examples.ExamplesHelpfulNPEsTest$Address.city()" is null

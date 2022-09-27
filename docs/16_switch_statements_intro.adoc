@@ -3,7 +3,7 @@
 ** Can be used as an expression to return value
 ** A `case` statement can contain multiple values separated by comma
 ** `switch` can be on enums
-** New keyword `yield` to use for code blocks ---
+** New keyword `yield` to use for code blocks
 
 ---
 

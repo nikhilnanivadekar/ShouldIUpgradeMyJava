@@ -11,7 +11,7 @@ public sealed class Admin implements User permits SuperAdmin {
 
 --
 
-.Inherited from sealed Class
+.Inherited from Sealed Class
 [source,java,highlight=2..3]
 ----
 public final class SuperAdmin extends Admin {
