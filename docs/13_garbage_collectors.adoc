@@ -6,4 +6,7 @@
 ** G1 GC (JDK 8)
 ** ZGC (JDK 16)
 ** Shenandoah GC (JDK 17 / JDK 11.0.14)
-** Epsilon (Experimental as of Sept 2022)
+** Epsilon (Experimental as of Sept 2022) ---
+link:./00_toc.adoc[TOC] /
+link:./12_memory_tests_measurements.adoc[Memory Tests Measurements] /
+link:./14_var_intro.adoc[var Intro]

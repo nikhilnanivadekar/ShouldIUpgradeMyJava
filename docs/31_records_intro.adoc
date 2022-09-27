@@ -8,3 +8,7 @@
 ** Default implementation for accessors, hashcode, toString, equals, automatically generated
 ** Can override default implementations and write custom method definitions
 ** For more info visit: link:https://www.infoq.com/articles/data-oriented-programming-java/[Data Oriented Programming in Java]
+---
+link:./00_toc.adoc[TOC] /
+link:./30_pattern_matching_for_instanceof_new_style.adoc[Pattern Matching New Style] /
+link:./32_records_old_style.adoc[Records Old Style]

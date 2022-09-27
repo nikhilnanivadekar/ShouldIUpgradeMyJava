@@ -7,3 +7,7 @@
 * 4 Core Intel i5 Processor
 * Your Mileage May Vary (YMMV)
 ** _Please test, benchmark and profile your application._
+---
+link:./00_toc.adoc[TOC] /
+link:./09_jmh_tests_map_get_string_measurements.adoc[JMH Tests - get() String Measurements] /
+link:./11_memory_tests_code.adoc[Memory Tests Code]

@@ -11,3 +11,7 @@
 ** Special Thanks to:
 *** link:https://wkorando.github.io/presentations[Billy Korando]
 *** link:https://twitter.com/CGuntur[Chandra Guntur]
+
+---
+link:./00_toc.adoc[TOC] /
+link:./02_jmh_tests_intro.adoc[JMH Tests - Intro]

@@ -11,3 +11,8 @@ String textBlockJson = """
           "phone": 123
         }""";
 ----
+
+---
+link:./00_toc.adoc[TOC] /
+link:./21_text_blocks_old_style.adoc[Text Block Old Style] /
+link:./23_text_blocks_injecting_variables.adoc[Text Block formatted]

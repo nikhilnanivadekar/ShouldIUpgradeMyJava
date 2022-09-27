@@ -8,3 +8,9 @@
 ** Measure Reported - Operations per second
 * Your Mileage May Vary (YMMV)
 ** _Please test, benchmark and profile your application._
+
+
+---
+link:./00_toc.adoc[TOC] /
+link:./01_intro.adoc[Intro] /
+link:./03_jmh_tests_measurement_pattern.adoc[JMH Measurement Pattern]

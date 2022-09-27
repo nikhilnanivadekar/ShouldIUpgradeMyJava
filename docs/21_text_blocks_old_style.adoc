@@ -10,3 +10,8 @@ String json = "{\n" +
         "  \"phone\": 123\n" +
         "}";
 ----
+
+---
+link:./00_toc.adoc[TOC] /
+link:./20_text_blocks_intro.adoc[Text Blocks Intro] /
+link:./22_text_blocks_new_style.adoc[Text Block New Style]

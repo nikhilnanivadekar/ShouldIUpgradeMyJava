@@ -2,4 +2,7 @@
 
 ** Sealed classes provide a fine-grained inheritance control in Java
 ** Prior to sealed classes, every non-final class could be extended by any number of sub-classes
-** With sealed classes we get new modifiers and clauses
+** With sealed classes we get new modifiers and clauses ---
+link:./00_toc.adoc[TOC] /
+link:./33_records_new_style.adoc[Records New Style] /
+link:./35_sealed_classes_intro2.adoc[Sealed Classes Intro - Contd]

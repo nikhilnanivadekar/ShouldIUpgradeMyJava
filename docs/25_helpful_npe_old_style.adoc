@@ -10,3 +10,9 @@ Exception in thread "main" java.lang.NullPointerException
 at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest1(ExamplesHelpfulNPEsTest.java:13)
 **/
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./24_helpful_npe_intro.adoc[Helpful NPE Intro] /
+link:./26_helpful_npe_new_style_1.adoc[Helpful NPE New Style]

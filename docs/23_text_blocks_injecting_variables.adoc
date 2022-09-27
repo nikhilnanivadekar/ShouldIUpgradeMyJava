@@ -16,3 +16,9 @@ String formattedTextBlockJson = textBlockJson.formatted(
         "Seattle",
         123);
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./22_text_blocks_new_style.adoc[Text Block New Style] /
+link:./24_helpful_npe_intro.adoc[Helpful NPE Intro]

@@ -7,3 +7,8 @@
 * Removal
 * Take Aways
 * Questions
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./01_intro.adoc[Intro]

@@ -10,3 +10,9 @@ java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the
 at nikhil.nani.code.examples.ExamplesHelpfulNPEsTest.helpfulNpesTest2(ExamplesHelpfulNPEsTest.java:23)
 **/
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./26_helpful_npe_new_style_1.adoc[Helpful NPE New Style] /
+link:./28_pattern_matching_for_instanceof_intro.adoc[Pattern Matching for instanceof Intro] /

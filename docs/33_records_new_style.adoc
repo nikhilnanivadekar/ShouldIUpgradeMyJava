@@ -17,3 +17,9 @@
         }
     }
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./32_records_old_style.adoc[Records Old Style] /
+link:./34_sealed_classes_intro1.adoc[Sealed Classes - Intro]

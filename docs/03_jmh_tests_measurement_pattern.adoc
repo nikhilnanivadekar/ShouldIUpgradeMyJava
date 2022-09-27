@@ -23,3 +23,8 @@
         return this.jdkString.size();
     }
 ----
+
+---
+link:./00_toc.adoc[TOC] /
+link:./02_jmh_tests_intro.adoc[JMH Tests - Intro] /
+link:./04_jmh_tests_code_put.adoc[JMH Tests - put()]

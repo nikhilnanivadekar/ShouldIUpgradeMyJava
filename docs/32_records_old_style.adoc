@@ -10,3 +10,9 @@
          */
     }
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./31_records_intro.adoc[Records Intro] /
+link:./33_records_new_style.adoc[Records New Style]

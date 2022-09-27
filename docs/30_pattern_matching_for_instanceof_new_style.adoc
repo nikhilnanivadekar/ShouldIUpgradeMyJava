@@ -17,3 +17,9 @@ private String withPatternMatching(Object input) {
         return "";
     }
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./29_pattern_matching_for_instanceof_old_style.adoc[Patten Matching Old Style] /
+link:./31_records_intro.adoc[Records Intro]

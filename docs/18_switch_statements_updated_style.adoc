@@ -14,3 +14,9 @@
     }
 
 ----
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./17_switch_statements_old_style.adoc[Switch Statements Old Style] /
+link:./19_switch_statements_yield.adoc[Switch with Yield Syntax]

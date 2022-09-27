@@ -4,3 +4,9 @@
 ** CMS Garbage Collector (JDK 14)
 ** Strongly Encapsulate JDK Internals (JDK 17)
 ** And a lot more deprecations
+
+---
+
+link:./00_toc.adoc[TOC] /
+link:./39_sealed_classes_sealed_non_sealed_hierarchy.adoc[Non-Sealed Classes Hierarchy] /
+link:./41_take_aways.adoc[Take Aways]

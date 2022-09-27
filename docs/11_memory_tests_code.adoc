@@ -22,3 +22,9 @@
             printMemoryUtilizationUsingRuntime("String", size);
         }
     }
+----
+
+---
+link:./00_toc.adoc[TOC] /
+link:./10_memory_tests_intro.adoc[Memory Tests Intro] /
+link:./12_memory_tests_measurements.adoc[Memory Tests Measurements]

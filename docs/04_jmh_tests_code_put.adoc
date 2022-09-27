@@ -18,3 +18,8 @@
         return this.jdkString.size();
     }
 ----
+
+---
+link:./00_toc.adoc[TOC] /
+link:./03_jmh_tests_measurement_pattern.adoc[JMH Measurement Pattern] /
+link:./05_jmh_tests_code_get.adoc[JMH Tests - get()]
