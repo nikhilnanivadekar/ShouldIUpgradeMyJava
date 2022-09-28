@@ -2,7 +2,7 @@
 
 [source,java,highlight=2..3]
 ----
-record PersonRecord(String firstName, String lastName) {
+public record PersonRecord(String firstName, String lastName) {
     public String getFullName() {
         return firstName + ' ' + lastName;
     }

@@ -2,7 +2,7 @@
 
 [source,java,highlight=2..3]
 ----
-private class PersonNonRecord {
+public final class PersonNonRecord {
     private final String firstName;
     private final String lastName;
     /**

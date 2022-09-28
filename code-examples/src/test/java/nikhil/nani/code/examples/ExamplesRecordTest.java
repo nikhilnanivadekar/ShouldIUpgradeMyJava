@@ -17,7 +17,7 @@ public class ExamplesRecordTest {
         Assertions.assertEquals(pnr.toString(), pr.toString());
     }
 
-    record PersonRecord(String firstName, String lastName) {
+    public record PersonRecord(String firstName, String lastName) {
 
         public String getFullName() {
             return firstName + ' ' + lastName;
@@ -32,8 +32,7 @@ public class ExamplesRecordTest {
         }
     }
 
-
-    private class PersonNonRecord {
+    public final class PersonNonRecord {
         private final String firstName;
         private final String lastName;
 
