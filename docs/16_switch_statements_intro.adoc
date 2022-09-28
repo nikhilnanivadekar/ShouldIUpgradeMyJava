@@ -1,9 +1,9 @@
 == Updated Switch Statements (JDK 14)
 
-** Can be used as an expression to return value
+** Can be used as an expression to yield value
 ** A `case` statement can contain multiple values separated by commas
 ** `switch` can be on enums
-** New keyword `yield` to use for code blocks
+** New restricted identifier (like var) `yield` to use for code blocks
 
 ---
 
