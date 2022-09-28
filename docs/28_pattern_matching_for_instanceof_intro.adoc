@@ -3,7 +3,7 @@
 ** Allows the conditional extraction of components from objects to be expressed more concisely and safely
 ** Casting is error-prone, difficult to maintain and has numerous other drawbacks
 ** Many languages (Haskell, C#, etc.) support pattern matching for its brevity and safety
-
+** Pattern variable flow scoped
 ---
 
 link:./00_toc.adoc[TOC] /
