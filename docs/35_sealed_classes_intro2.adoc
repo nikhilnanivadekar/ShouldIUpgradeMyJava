@@ -1,4 +1,4 @@
-== Sealed Classes (JDK 17) - Intro
+== Sealed Classes (JDK 17)
 
 ** With sealed classes we get the following modifiers and clauses
 *** `sealed`: can be extended or implemented only by those classes and interfaces permitted to do so

@@ -13,7 +13,7 @@
 
 * All data in Kb for memory usage
 ** `Used Memory = Total Memory - Free Memory`
-* Higher numbers are better
+* Lower numbers are better
 
 ---
 

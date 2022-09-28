@@ -1,10 +1,10 @@
 == Garbage Collectors
 
-** Serial GC (JDK 1)
-** Parallel GC (JDK 1.4)
-** G1 GC (JDK 8)
-** ZGC (JDK 16)
-** Shenandoah GC (JDK 17 / JDK 11.0.14)
+** Serial GC
+** Parallel GC
+** G1 GC
+** ZGC
+** Shenandoah GC
 ** Epsilon (Experimental as of Sept 2022)
 
 ---

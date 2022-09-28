@@ -1,4 +1,4 @@
-== Sealed Classes (JDK 17) - Intro
+== Sealed Classes (JDK 17)
 
 ** Provide a fine-grained inheritance control in Java
 ** Prior to sealed classes: every non-final class could be extended by any number of sub-classes

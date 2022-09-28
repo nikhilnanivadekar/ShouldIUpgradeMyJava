@@ -1,4 +1,4 @@
-== Helpful Null Pointer Exceptions - Old Style
+== Null Pointer Exceptions - Old Style
 
 [source,java,highlight=2..3]
 ----
