@@ -1,11 +1,11 @@
 == JMH Tests - Intro
 
 * link:https://openjdk.org/projects/code-tools/jmh/[JMH - Java Microbenchmark Harness]
-* _Bigger_ numbers are better
 * 4 Core Intel i5 Processor
 * Measurement Configuration
 ** 3 forks, 5 Warm-up iterations, 5 Measurement iterations
 ** Measure Reported - Operations per second
+** _Bigger_ numbers are better
 * Your Mileage May Vary (YMMV)
 ** _Please test, benchmark and profile your application._
 

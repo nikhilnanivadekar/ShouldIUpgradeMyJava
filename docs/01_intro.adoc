@@ -1,7 +1,6 @@
 == Introduction
 
 ** Nikhil Nanivadekar
-*** Principal Engineer, Amazon
 *** Active Project Lead, Eclipse Collections
 *** Java Champion
 *** Twitter: link:https://twitter.com/NikhilNanivade[NikhilNanivade]

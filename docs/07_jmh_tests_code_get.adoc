@@ -28,5 +28,6 @@ public int jdkStringGet() {
 
 ---
 link:./00_toc.adoc[TOC] /
-link:./04_jmh_tests_code_put.adoc[JMH Tests - put()] /
-link:./06_jmh_tests_map_put_integer_measurements.adoc[JMH Tests - put() Integer Measurements]
+link:./06_jmh_tests_map_put_string_measurements.adoc[JMH Tests - put() String Measurements] /
+link:./08_jmh_tests_map_get_integer_measurements.adoc[JMH Tests - get() Integer Measurements]
+

@@ -3,7 +3,7 @@
 ** Performance improvements, new features
 ** Upgrade to JDK 17
 ** If still on JDK 8 skip JDK 11 and go directly to JDK 17
-** JDK 17 is more than a year old (released September 2022)
+** JDK 17 is more than a year old (released September 2021)
 ** JDK 19 is already released
 ** JDK 21 will be out in September 2023
 ** Embrace the future
@@ -14,4 +14,4 @@
 
 link:./00_toc.adoc[TOC] /
 link:./40_removals.adoc[Removals] /
-link:./42_q_and_a.adoc[Q & As] /
+link:./43_q_and_a.adoc[Q & As] /

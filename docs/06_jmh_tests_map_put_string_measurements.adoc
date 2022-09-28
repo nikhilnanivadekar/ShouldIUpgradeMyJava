@@ -17,5 +17,5 @@ Higher numbers are better
 ---
 
 link:./00_toc.adoc[TOC] /
-link:./06_jmh_tests_map_put_integer_measurements.adoc[JMH Tests - put() Integer Measurements] /
-link:./08_jmh_tests_map_get_integer_measurements.adoc[JMH Tests - get() Integer Measurements]
+link:./05_jmh_tests_map_put_integer_measurements.adoc[JMH Tests - put() Integer Measurements] /
+link:./07_jmh_tests_code_get.adoc[JMH Tests - get()]

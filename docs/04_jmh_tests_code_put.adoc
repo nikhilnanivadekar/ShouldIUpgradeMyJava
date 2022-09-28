@@ -22,4 +22,4 @@ public int jdkStringPut() {
 ---
 link:./00_toc.adoc[TOC] /
 link:./03_jmh_tests_measurement_pattern.adoc[JMH Measurement Pattern] /
-link:./05_jmh_tests_code_get.adoc[JMH Tests - get()]
+link:./05_jmh_tests_map_put_integer_measurements.adoc[JMH Tests - put() Integer Measurements]

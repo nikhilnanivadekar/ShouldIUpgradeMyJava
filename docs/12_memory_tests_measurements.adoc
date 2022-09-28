@@ -18,4 +18,4 @@ Lower numbers are better
 
 link:./00_toc.adoc[TOC] /
 link:./11_memory_tests_code.adoc[Memory Tests Code] /
-link:./13_garbage_collectors.adoc[Garbage Collectors]
+link:./13_performance_tests_summary.adoc[Performance Tests Summary]
