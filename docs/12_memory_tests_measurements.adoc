@@ -1,8 +1,8 @@
-== Memory Measurements
+== Memory Measurements - Memory Usage
 
 [%header,cols=">1,>1,>1,>1"]
 |===
-|Size|JDK 8|JDK 11|JDK 17
+|Size (elements)|JDK 8 (Kb)|JDK 11 (Kb)|JDK 17 (Kb)
 |10|4061|1,337|*1,265*
 |100|4,074|1,350|*1,278*
 |1,000|4,195|1,471|*1,399*
@@ -11,8 +11,9 @@
 |1,000,000|148,199|*139,471*|139,550
 |===
 
-* All data in Kb.
-Lower numbers are better
+* All data in Kb for memory usage
+** `Used Memory = Total Memory - Free Memory`
+* Higher numbers are better
 
 ---
 
