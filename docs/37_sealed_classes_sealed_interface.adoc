@@ -13,5 +13,5 @@ public sealed interface User permits Owner, Admin, Resident {
 ---
 
 link:./00_toc.adoc[TOC] /
-link:./36_sealed_classes_sealed_interface.adoc[Hierarchy Diagram] /
+link:./36_sealed_classes_sealed_class_diagram.adoc[Hierarchy Diagram] /
 link:./38_sealed_classes_sealed_interface_hierarchy.adoc[Sealed Interface Hierarchy]

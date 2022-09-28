@@ -1,4 +1,4 @@
-== Hierarchy Diagram
+== Class Diagram
 
 image::img/sealed-class-hierarchy.png[]
 ---

@@ -10,4 +10,4 @@
 ---
 link:./00_toc.adoc[TOC] /
 link:./34_sealed_classes_intro1.adoc[Sealed Classes - Intro] /
-link:./36_sealed_classes_sealed_interface.adoc[Hierarchy Diagram]
+link:./36_sealed_classes_sealed_class_diagram.adoc[Hierarchy Diagram]
