@@ -24,5 +24,5 @@ public non-sealed class Resident implements User  {
 
 ---
 link:./00_toc.adoc[TOC] /
-link:./36_sealed_classes_sealed_interface.adoc[Sealed Interface] /
-link:./38_sealed_classes_sealed_class_hierarchy.adoc[Sealed Classes Hierarchy]
+link:./37_sealed_classes_sealed_interface.adoc[Sealed Interface] /
+link:./39_sealed_classes_sealed_class_hierarchy.adoc[Sealed Classes Hierarchy]

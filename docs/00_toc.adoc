@@ -3,10 +3,10 @@
 * link:./01_intro.adoc[Introduction]
 * link:./02_jmh_tests_intro.adoc[Performance Comparison (JDK 8 vs JDK 11 vs JDK 17)]
 * link:./14_var_intro.adoc[Features between JDK 8 to JDK 17. _Previews are not considered_]
-* link:./40_removals.adoc[Removal]
-* link:./41_garbage_collectors.adoc[Garbage Collectors]
-* link:./42_take_aways.adoc[Take Aways]
-* link:./43_q_and_a.adoc[Questions]
+* link:./41_removals.adoc[Removal]
+* link:./42_garbage_collectors.adoc[Garbage Collectors]
+* link:./43_take_aways.adoc[Take Aways]
+* link:./44_q_and_a.adoc[Questions]
 
 ---
 

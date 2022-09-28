@@ -10,5 +10,5 @@
 ---
 
 link:./00_toc.adoc[TOC] /
-link:./40_removals.adoc[Removals] /
-link:./42_take_aways.adoc[Take Aways]
+link:./41_removals.adoc[Removals] /
+link:./43_take_aways.adoc[Take Aways]

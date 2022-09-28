@@ -16,5 +16,5 @@ Assertions.assertEquals("Logged in", overnightGuest.login());
 ---
 
 link:./00_toc.adoc[TOC] /
-link:./38_sealed_classes_sealed_class_hierarchy.adoc[Sealed Classes Hierarchy] /
-link:./40_removals.adoc[Removals]
+link:./39_sealed_classes_sealed_class_hierarchy.adoc[Sealed Classes Hierarchy] /
+link:./41_removals.adoc[Removals]
