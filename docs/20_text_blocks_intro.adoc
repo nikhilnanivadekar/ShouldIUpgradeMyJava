@@ -8,5 +8,5 @@
 
 ---
 link:./00_toc.adoc[TOC] /
-link:./19_switch_statements_yield.adoc[Switch with Yield Syntax] /
+link:./19_switch_expressions_yield.adoc[Switch with Yield Syntax] /
 link:./21_text_blocks_old_style.adoc[Text Block Old Style]
