@@ -2,7 +2,7 @@
 
 ** Prior to Java 14: Difficult to isolate NPEs in chained method calls
 ** From Java 14: `NullPointerException` prints a detailed helpful message
-** Only when the JVM throws a NPE and not when an NPE is explicitly thrown
+** Only when the JVM throws an NPE and not when an NPE is explicitly thrown
 
 ---
 
